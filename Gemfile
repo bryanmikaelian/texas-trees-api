@@ -8,6 +8,7 @@ gem 'pg'
 
 # Third Party
 gem 'jbuilder', '~> 2.0'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'byebug'

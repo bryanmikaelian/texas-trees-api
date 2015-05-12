@@ -138,6 +138,7 @@ DEPENDENCIES
   byebug
   factory_girl_rails
   jbuilder (~> 2.0)
+  nokogiri
   pg
   rails (= 4.2.1)
   rspec-rails
