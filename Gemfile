@@ -7,6 +7,7 @@ gem 'rails', '4.2.1'
 gem 'pg'
 
 # Third Party
+gem 'kaminari'
 gem 'jbuilder', '~> 2.0'
 gem 'nokogiri'
 
