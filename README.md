@@ -1,17 +1,20 @@
-== Texas Trees API
+Texas Trees API
+=
 
 This is a simple API that allows you to view all the trees native to Texas. The data's source is from {Texas A&M}[http://aggie-horticulture.tamu.edu/ornamentals/natives/INDEXSCIENTIFIC.HTM]
 
-== Running locally
+Running locally
+=
 
-1. bundle install
-2. bundle exec rake db:create; bundle exec rake db:schema:load; bundle exec rake db:seed
+1. ```bundle install```
+2. ```bundle exec rake db:create; bundle exec rake db:schema:load; bundle exec rake db:seed```
 
 
 You can then visit /trees.json and see all the data!
 
 
-== Contributing
+Contributing
+=
 
 1. Fork it
 2. Open a Pull Request
