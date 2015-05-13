@@ -25,10 +25,10 @@ namespace :trees do
         tree.exposure = tree_data[1].children.last.text.gsub("\n", ", ")
 
         # Flowering Color
-        tree.flowering_color = tree_data[2].children.last.text
+        tree.flowering_color = tree_data[2].children.last.text.gsub("\n", ", ")
 
         # Blooming Period
-        tree.blooming_period = tree_data[3].children.last.text
+        tree.blooming_period = tree_data[3].children.last.text.gsub("\n", ", ")
 
         # Fruit Characteristics
         tree.fruit_characteristics = tree_data[4].children.last.text

@@ -6,3 +6,5 @@ env:
 script:
   - bundle exec rake db:test:prepare
   - bundle exec rspec spec/
+notifications:
+  email: false
