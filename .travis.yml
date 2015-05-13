@@ -1,4 +1,8 @@
 language: ruby
 rvm:
   - 2.2.2
-script: rspec spec
+env:
+  - DB=postgresql
+script:
+  - bundle exec rake db:test:prepare
+  - bundle exec rspec spec/
