@@ -6,6 +6,7 @@ class Tree < ActiveRecord::Base
   # Scopes
 
   # Validations
+  validates :name, uniqueness: true
 
   # Methods
 end

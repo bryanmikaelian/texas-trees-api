@@ -43,17 +43,17 @@ namespace :trees do
         tree.plant_character = tree_data[7].children.last.text.gsub("\n", ", ")
 
         # Heat Tolerance
-        tree.heat_tolerance = tree_data[8].children.last.text
+        tree.heat_tolerance = tree_data[8].children.last.text.gsub("\n", ", ")
 
         # Water Requirements
-        tree.water_requirements = tree_data[9].children.last.text
+        tree.water_requirements = tree_data[9].children.last.text.gsub("\n", ", ")
 
         # Soil Requirements
         tree.soil_requirements = tree_data[10].children.last.text.gsub("\n", ", ")
 
         # USDA Hardiness Zone
         tree.usda_hardiness_zone = tree_data[11].children.last.text.to_i
-      end.save!
+      end.save
     end
   end
 end
