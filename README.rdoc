@@ -1,28 +1,18 @@
-== README
+== Texas Trees API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple API that allows you to view all the trees native to Texas. The data's source is from {Texas A&M}[http://aggie-horticulture.tamu.edu/ornamentals/natives/INDEXSCIENTIFIC.HTM]
 
-Things you may want to cover:
+== Running locally
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. bundle install
+2. bundle exec rake db:create; bundle exec rake db:schema:load; bundle exec rake db:seed
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+You can then visit /trees.json and see all the data!
+
+
+== Contributing
+
+1. Fork it
+2. Open a Pull Request
+2. 🚢
