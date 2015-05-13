@@ -1,5 +1,6 @@
 Texas Trees API
 =
+![BuildStatus](https://travis-ci.org/bryanmikaelian/texas-trees-api.svg)
 
 This is a simple API that allows you to view all the trees native to Texas. The data's source is from {Texas A&M}[http://aggie-horticulture.tamu.edu/ornamentals/natives/INDEXSCIENTIFIC.HTM]
 
