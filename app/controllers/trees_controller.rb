@@ -3,6 +3,11 @@ class TreesController < ApplicationController
     page = params[:page]
     per = params[:per_page] && params[:per_page].to_i > 100 ? 100 : params[:per_page] || 25
     @trees = Tree.page(page).per(per).order(name: :asc)
+
+    respond_to do |format|
+      format.html
+      format.json { @trees }
+    end
   end
 
   def search
