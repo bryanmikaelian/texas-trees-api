@@ -49,14 +49,14 @@ class Tree < ActiveRecord::Base
   concerning :Search do
     included do
       searchable do
-        text :name, boost: 10.0
-        text :nicknames, boost: 20.0 do
+        text :name
+        text :nicknames do
           nicknames.split(",")
         end
-        text :habit, boost: 4.0 do
+        text :habit do
           habit.split(",")
         end
-        text :description, boost: 1.0
+        text :description
         string :exposure
         text :flowering_color
         string :blooming_period
