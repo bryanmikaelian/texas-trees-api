@@ -12,8 +12,8 @@ class Tree < ActiveRecord::Base
   def self.sunspot_search(query, opts = {})
     search = Tree.search do
       fulltext query do
-        fields(name: 10.0)
-        fields(:description, :flowering_color)
+        fields(name: 10.0, description: 2.0, nicknames: 20.0)
+        fields(:flowering_color)
         phrase_fields(nicknames: 20.0)
         phrase_fields(habit: 4.0)
         phrase_fields(fruit_characteristics: 2.0)
