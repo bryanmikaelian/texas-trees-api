@@ -10,6 +10,7 @@ gem 'pg'
 gem 'kaminari'
 gem 'jbuilder', '~> 2.0'
 gem 'nokogiri'
+gem 'sunspot_rails'
 
 group :development, :test do
   gem 'byebug'
@@ -17,4 +18,5 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'pry-rails'
 end
