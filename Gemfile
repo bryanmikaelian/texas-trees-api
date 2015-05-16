@@ -11,6 +11,7 @@ gem 'haml'
 
 # Third Party
 gem 'coffee-script'
+gem 'foundation-rails'
 gem 'kaminari'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
