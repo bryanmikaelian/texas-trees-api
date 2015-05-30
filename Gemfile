@@ -28,4 +28,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'pry-rails'
   gem 'sunspot_solr'
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rvm'
 end
