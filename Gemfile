@@ -9,6 +9,9 @@ gem 'pg'
 # View Engine
 gem 'haml'
 
+# Unicorn
+gem 'unicorn'
+
 # Third Party
 gem 'coffee-script'
 gem 'foundation-rails'
