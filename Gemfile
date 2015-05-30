@@ -25,6 +25,7 @@ gem 'turbolinks'
 gem 'therubyracer'
 gem 'execjs'
 gem 'uglifier'
+gem 'sunspot_solr'
 
 group :development, :test do
   gem 'byebug'
@@ -33,7 +34,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'pry-rails'
-  gem 'sunspot_solr'
   gem 'capistrano'
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
