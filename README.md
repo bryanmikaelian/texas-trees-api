@@ -15,6 +15,15 @@ Running locally
 
 You can then visit /trees.json and see all the data!
 
+Usage
+=
+
+While I have no plans to restrict usage, please keep in mind the API is running on an AWS Micro instance.
+
+Why did you build this?
+=
+
+I was having a conversation with a co-worker about trees. The idea of having an "open database of trees" came up, so, I took the idea and built something.
 
 Contributing
 =
