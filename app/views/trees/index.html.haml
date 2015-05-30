@@ -1,6 +1,6 @@
-.row
-  .small-12.columns.text-center
+.row.centered
+  .twelve.columns
     %h1 Texas Trees
-    %h4 The Open Database for Native Texas Trees
+    %h4 The Open API for the Native Trees of Texas
 
-    = link_to 'View API', trees_url(format: :json)
+    = link_to 'View API', trees_url(format: :json), class: 'button'

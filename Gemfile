@@ -14,7 +14,6 @@ gem 'unicorn'
 
 # Third Party
 gem 'coffee-script'
-gem 'foundation-rails'
 gem 'kaminari'
 gem 'jbuilder'
 gem 'jquery-rails'
@@ -26,6 +25,10 @@ gem 'therubyracer'
 gem 'execjs'
 gem 'uglifier'
 gem 'sunspot_solr'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-skeleton'
+end
 
 group :development, :test do
   gem 'byebug'
