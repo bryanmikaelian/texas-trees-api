@@ -48,25 +48,25 @@ class Tree < ActiveRecord::Base
 
   concerning :Search do
     included do
-      searchable do
-        text :name
-        text :nicknames do
-          nicknames.try { |x| x.split(",") }
-        end
-        text :habit do
-          habit.try { |x| x.split(",") }
-        end
-        text :description
-        string :exposure
-        text :flowering_color
-        string :blooming_period
-        text :fruit_characteristics
-        text :plant_character
-        string :heat_tolerance
-        string :water_requirements
-        string :soil_requirements
-        integer :usda_hardiness_zone
-      end
+      # searchable do
+      #   text :name
+      #   text :nicknames do
+      #     nicknames.try { |x| x.split(",") }
+      #   end
+      #   text :habit do
+      #     habit.try { |x| x.split(",") }
+      #   end
+      #   text :description
+      #   string :exposure
+      #   text :flowering_color
+      #   string :blooming_period
+      #   text :fruit_characteristics
+      #   text :plant_character
+      #   string :heat_tolerance
+      #   string :water_requirements
+      #   string :soil_requirements
+      #   integer :usda_hardiness_zone
+      # end
     end
   end
 end
