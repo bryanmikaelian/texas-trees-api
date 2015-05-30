@@ -37,11 +37,9 @@ set :rvm_type, :auto
 set :rvm_ruby_version, '2.2.2@texas-trees'
 set :assets_roles, [:app]
 
+after 'deploy:publishing', 'deploy:restart'
 namespace :deploy do
-
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-    end
+  task :restart do
+    invoke 'unicorn:restart'
   end
-
 end
