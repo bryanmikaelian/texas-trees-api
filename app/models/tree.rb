@@ -51,10 +51,10 @@ class Tree < ActiveRecord::Base
       searchable do
         text :name
         text :nicknames do
-          nicknames.split(",")
+          nicknames.try { |x| x.split(",") }
         end
         text :habit do
-          habit.split(",")
+          habit.try { |x| x.split(",") }
         end
         text :description
         string :exposure
