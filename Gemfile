@@ -21,6 +21,7 @@ gem 'sunspot_rails'
 gem 'turbolinks'
 gem 'therubyracer'
 gem 'execjs'
+gem 'uglifier'
 
 group :development, :test do
   gem 'byebug'
