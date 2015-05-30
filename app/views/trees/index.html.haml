@@ -3,8 +3,4 @@
     %h1 Texas Trees
     %h4 The Open Database for Native Texas Trees
 
-.row
-  - @trees.each_slice(4) do |trees|
-    - trees.each do |tree|
-      .small-3.columns
-        = link_to tree.name, '', class: 'button small'
+    = link_to 'View API', trees_url(format: :json)
