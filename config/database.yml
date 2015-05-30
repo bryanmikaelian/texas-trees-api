@@ -82,4 +82,5 @@ production:
   <<: *default
   database: texas_trees_production
   username: texas_trees
-  password: <%= ENV['TEXAS_TREES_DATABASE_PASSWORD'] %>
+  password: 83d96aa6
+  host: localhost
