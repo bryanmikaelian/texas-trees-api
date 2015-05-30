@@ -14,7 +14,7 @@ rails_env = 'production'
 
 # Log everything to one file
 stderr_path 'log/texas-trees-unicorn.log'
-stdout_path 'log/og/texas-trees-unicorn-error.log'
+stdout_path 'log/texas-trees-unicorn-error.log'
 
 # Set master PID location
 pid "#{app_path}/tmp/pids/unicorn.texas-trees.pid"
