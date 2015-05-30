@@ -33,6 +33,10 @@ set :log_level, :debug
 # Default value for keep_releases is 5
 set :keep_releases, 5
 
+set :rvm_type, :auto
+set :rvm_ruby_version, '2.2.2@texas-trees'
+set :assets_roles, [:app]
+
 namespace :deploy do
 
   after :restart, :clear_cache do
