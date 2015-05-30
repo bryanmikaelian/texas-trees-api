@@ -19,6 +19,7 @@ gem 'nokogiri'
 gem 'sass-rails'
 gem 'sunspot_rails'
 gem 'turbolinks'
+gem 'execjs'
 
 group :development, :test do
   gem 'byebug'

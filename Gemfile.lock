@@ -215,6 +215,7 @@ DEPENDENCIES
   capistrano-rvm
   capistrano3-unicorn
   coffee-script
+  execjs
   factory_girl_rails
   foundation-rails
   haml
